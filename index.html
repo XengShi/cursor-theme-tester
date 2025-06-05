@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon/cursor.svg" type="image/svg+xml">
+    <title>Cursor Theme Tester</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1{
+            width: fit-content;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 3rem;
+        }
+
+        .tilesCont {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tile {
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #a7b2c1;
+            border-radius: 16px;
+            background-color: #e9e9e9;
+            transition: background-color 0.3s;
+            cursor: default;
+        }
+
+        .tile:hover {
+            background-color: #fafafa;
+        }
+
+        .pointer {
+            cursor: pointer;
+        }
+
+        .wait {
+            cursor: wait;
+        }
+
+        .text {
+            cursor: text;
+        }
+
+        .crosshair {
+            cursor: crosshair;
+        }
+
+        .move {
+            cursor: move;
+        }
+
+        .help {
+            cursor: help;
+        }
+
+        .not-allowed {
+            cursor: not-allowed;
+        }
+
+        .progress {
+            cursor: progress;
+        }
+
+        .alias {
+            cursor: alias;
+        }
+
+        .cell {
+            cursor: cell;
+        }
+
+        .context-menu {
+            cursor: context-menu;
+        }
+
+        .copy {
+            cursor: copy;
+        }
+
+        .grab {
+            cursor: grab;
+        }
+
+        .grabbing {
+            cursor: grabbing;
+        }
+
+        .zoom-in {
+            cursor: zoom-in;
+        }
+
+        .zoom-out {
+            cursor: zoom-out;
+        }
+
+        .vertical-text {
+            cursor: vertical-text;
+        }
+
+        .all-scroll {
+            cursor: all-scroll;
+        }
+
+        .col-resize {
+            cursor: col-resize;
+        }
+
+        .row-resize {
+            cursor: row-resize;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Cursor Theme Tester</h1>
+
+    <div class="tilesCont">
+        <div class="tile pointer">Pointer</div>
+        <div class="tile wait">Wait</div>
+        <div class="tile text">Text</div>
+        <div class="tile crosshair">Crosshair</div>
+        <div class="tile move">Move</div>
+        <div class="tile help">Help</div>
+        <div class="tile not-allowed">Not Allowed</div>
+        <div class="tile progress">Progress</div>
+        <div class="tile alias">Alias</div>
+        <div class="tile cell">Cell</div>
+        <div class="tile context-menu">Context Menu</div>
+        <div class="tile copy">Copy</div>
+        <div class="tile grab">Grab</div>
+        <div class="tile grabbing">Grabbing</div>
+        <div class="tile zoom-in">Zoom In</div>
+        <div class="tile zoom-out">Zoom Out</div>
+        <div class="tile vertical-text">Vertical Text</div>
+        <div class="tile all-scroll">All Scroll</div>
+        <div class="tile col-resize">Column Resize</div>
+        <div class="tile row-resize">Row Resize</div>
+    </div>
+
+</body>
+
+</html>
